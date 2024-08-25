@@ -52,7 +52,7 @@
                     switch($chonphepTinh){
                         case "Cong":
                             $ketqua = $soA + $soB;
-                            echo("Hello World!");
+                            echo(number_format($soA, 1) .' + ' .number_format($soB, 1) .' = ' .number_format($ketqua, 1));
                             break;
                         case "Tru":
                             $ketqua = $soA - $soB;
